@@ -1,0 +1,172 @@
+@charset "utf-8";
+body{
+
+    background-color: #000000;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    color: #606060;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 30px;
+    color: #000000;
+}
+
+h3{
+    font-size: 20px;
+   
+}
+
+p{
+    color: #666666;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menu ul li a:hover{
+    text-decoration: underline;
+    color: #FAE400;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+    background-color:#000000;
+  
+}
+
+#container-fluid{
+    width: 100%;
+    height: auto;
+    background-color:#000000;
+
+}
+
+#border{
+    width: 75%;
+    height: auto;
+    border: red 2px ridge;
+
+}
+
+#border2{
+    width: 100%;
+    height: auto;
+    border:white 2px ridge;
+
+}
+
+#border3{
+    width: 100%;
+    height: auto;
+   
+
+}
+
+#header{
+    width: 100%;
+    background-image: url(Img/banner.gif);
+    
+}
+
+#navaside ul {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#navaside ul li {
+    padding: 0px;
+}
+
+#navaside ul li a {
+    
+    display: block;
+    color: rgb(21, 22, 22);
+    padding: 28px 0%;
+    border-bottom: 1PX solid rgb(112, 112, 112, .60);
+}
+
+#navaside ul li a:hover {
+      
+    width: 200px;
+    height: 28px;
+    float: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #004180;
+    padding-left: 20px;
+    background-color: #8EA8B9;
+}
+
+.banneraside{
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#footer1{
+    width: 67%;
+    background-color: #000000;
+    float: left;
+    padding-left: 1%;
+	
+}
+#footer2{
+    width: 31%;
+    background-color: #CC0000;
+    float: right;
+    padding-left: 1%;
+}
+
+#footer p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#footer p a {
+    color: #006AAB;
+}
+
+#footer p a:hover {
+    color: #004180;
+}
+
+.pushbar-menu a {
+    display: block;
+    color: aquamarine;
+    padding: 0%;
+    border-bottom: 1PX solid rgb(112, 112, 112, .60);
+}
+
+.pushbar-menu a{
+    background-color: rosybrown;
+}
+
+.pushbar-menu a:hover{
+    color: rgba(208, 255, 0, 0.568);
+
+}
+
+.jumbotron{
+   background-image: url("https://images.alphacoders.com/976/976901.jpg");
+   margin-top: 30px;
+   background-color: royalblue;
+}
